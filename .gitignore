@@ -4,3 +4,7 @@ dist
 .DS_Store
 Thumbs.db
 *.log
+tsconfig.tsbuildinfo
+
+# Doublons : les vignettes utilisées par l’app sont dans public/qcm/*.jpg uniquement.
+/WhatsApp*.jpeg

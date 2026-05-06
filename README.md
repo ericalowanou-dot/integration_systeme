@@ -57,6 +57,8 @@ npm run preview
 
 Si des images manquent, vérifie que les fichiers sont bien nommés **`1.jpg`**, **`2.jpg`**, etc., et placés dans **`public/qcm/`**.
 
+Sur Git, seuls les fichiers **`public/qcm/*.jpg`** sont inclus : les images d’origine type **WhatsApp** à la racine du dossier ne sont pas suivies par Git (évite le doublon et allège le dépôt).
+
 ## Windows (PowerShell ou CMD)
 
 Les mêmes commandes fonctionnent après `cd` vers le dossier du projet, par exemple :
